@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star, Clock, Users, ArrowRight, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
+import OptimizedImage from './OptimizedImage';
 
 export default function Courses() {
   const [expandedSkills, setExpandedSkills] = React.useState<{ [key: number]: boolean }>({});
@@ -174,11 +175,11 @@ export default function Courses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Training
-            <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent"> Programs</span>
+            Available
+            <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent"> Training Programs</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Explore our comprehensive internal training programs designed to enhance your skills and advance your career at Ielektron Technologies.
+            Discover the training programs available to you as an Ielektron employee. Each course is designed to help you develop skills that matter for your role and career growth.
           </p>
         </div>
 
@@ -207,10 +208,11 @@ export default function Courses() {
             >
               {/* Course Image */}
               <div className="relative h-48 overflow-hidden">
-                <img
+                <OptimizedImage
                   src={course.image}
                   alt={course.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  loading="lazy"
                 />
                 <div className="absolute top-4 left-4">
                   <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getLevelColor(course.level)}`}>

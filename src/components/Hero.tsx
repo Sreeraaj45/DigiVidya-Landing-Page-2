@@ -12,7 +12,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
       {/* Liquid Ether Background */}
       <div className="absolute inset-0 bg-black">
         <LiquidEther
-          colors={['#1976D2', '#42A5F5', '#90CAF9']}
+          colors={['#6A1B9A', '#AB47BC', '#CE93D8']}
           mouseForce={20}
           cursorSize={100}
           isViscous={false}
@@ -35,30 +35,32 @@ export default function Hero({ scrollToSection }: HeroProps) {
         <div className="max-w-4xl mx-auto">
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
-            Ielektron Technologies
+            Welcome to
             <span className="block bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text text-transparent drop-shadow-2xl">
-              Learning Platform
+              DigiVidya Platform
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed drop-shadow-xl">
-            Empowering our team with comprehensive internal training programs.
-            Develop skills, advance your career, and grow professionally within Ielektron Technologies.
+            Your gateway to professional development at Ielektron Technologies.
+            Access training modules, track your progress, and advance your career with our internal learning management system.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 pointer-events-auto">
+            <a href="https://www.digividya.ielektron.com/" target="_blank" rel="noopener noreferrer">
+              <button className="bg-gradient-to-r from-primary-600/80 to-primary-500/80 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center space-x-2 border border-white/20 drop-shadow-lg">
+                <BookOpen className="h-5 w-5" />
+                <span>Access Platform</span>
+              </button>
+            </a>
             <button
-              onClick={() => scrollToSection('courses')}
-              className="bg-gradient-to-r from-primary-600/80 to-primary-500/80 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center space-x-2 border border-white/20 drop-shadow-lg"
+              onClick={() => scrollToSection('how-it-works')}
+              className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 hover:scale-105 transition-all duration-300 flex items-center space-x-2 border border-white/20 drop-shadow-lg"
             >
-              <BookOpen className="h-5 w-5" />
-              <span>Browse Training</span>
-            </button>
-            <button className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 hover:scale-105 transition-all duration-300 flex items-center space-x-2 border border-white/20 drop-shadow-lg">
               <Play className="h-5 w-5" />
-              <span>View Catalog</span>
+              <span>See How It Works</span>
             </button>
           </div>
 

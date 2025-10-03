@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import HowItWorks from './components/HowItWorks';
 import Courses from './components/Courses';
 import About from './components/About';
 import Team from './components/Team';
@@ -25,6 +26,7 @@ function App() {
       <Navigation scrollToSection={scrollToSection} />
       <Hero scrollToSection={scrollToSection} />
       <Features />
+      <HowItWorks />
       <Courses />
       <About />
       <Team />

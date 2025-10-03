@@ -87,9 +87,9 @@
       hsla(266, 25%, 70%, calc(var(--card-opacity) * 0.5)) 50%,
       hsla(266, 0%, 60%, 0) 100%
     ),
-    radial-gradient(35% 52% at 55% 20%, #00ffaac4 0%, #073aff00 100%),
-    radial-gradient(100% 100% at 50% 50%, #00c1ffff 1%, #073aff00 76%),
-    conic-gradient(from 124deg at 50% 50%, #c137ffff 0%, #07c6ffff 40%, #07c6ffff 60%, #c137ffff 100%);
+    radial-gradient(35% 52% at 55% 20%, #AB47BC80 0%, #6A1B9A00 100%),
+    radial-gradient(100% 100% at 50% 50%, #CE93D8ff 1%, #6A1B9A00 76%),
+    conic-gradient(from 124deg at 50% 50%, #6A1B9Aff 0%, #AB47BCff 40%, #AB47BCff 60%, #6A1B9Aff 100%);
   overflow: hidden;
 }
 
@@ -150,12 +150,12 @@
     ),
     repeating-linear-gradient(
       var(--angle),
-      #0e152e 0%,
-      hsl(180, 10%, 60%) 3.8%,
-      hsl(180, 29%, 66%) 4.5%,
-      hsl(180, 10%, 60%) 5.2%,
-      #0e152e 10%,
-      #0e152e 12%
+      #2d1a3e 0%,
+      hsl(300, 10%, 60%) 3.8%,
+      hsl(300, 29%, 66%) 4.5%,
+      hsl(300, 10%, 60%) 5.2%,
+      #2d1a3e 10%,
+      #2d1a3e 12%
     ),
     radial-gradient(
       farthest-corner circle at var(--pointer-x) var(--pointer-y),
@@ -384,7 +384,7 @@
   margin: 0;
   font-size: 38px;
   margin: 0;
-  background-image: linear-gradient(to bottom, #fff, #6f6fbe);
+  background-image: linear-gradient(to bottom, #fff, #AB47BC);
   background-size: 1em 1.5em;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -400,7 +400,7 @@
   font-size: 16px;
   margin: 0 auto;
   width: min-content;
-  background-image: linear-gradient(to bottom, #fff, #4a4ac0);
+  background-image: linear-gradient(to bottom, #fff, #6A1B9A);
   background-size: 1em 1.5em;
   -webkit-text-fill-color: transparent;
   background-clip: text;

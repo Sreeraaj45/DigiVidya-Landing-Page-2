@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Image optimization styles */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  will-change: transform;
+}
+
+/* Smooth loading transitions */
+img[loading="lazy"] {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Optimize rendering performance */
+.optimized-image {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}

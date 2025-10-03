@@ -11,26 +11,26 @@ export default function About() {
 
   const values = [
     {
-      title: 'Innovation',
-      description: 'We continuously innovate our learning platform with cutting-edge technology to deliver exceptional training experiences.',
+      title: 'Personalized Learning',
+      description: 'Get customized course recommendations and learning paths tailored to your role, experience level, and career goals.',
       icon: Lightbulb,
       gradient: 'from-primary-500 to-primary-600'
     },
     {
-      title: 'Excellence',
-      description: 'We maintain the highest standards in training content quality, expert instruction, and comprehensive team support.',
+      title: 'Quality Content',
+      description: 'Access high-quality training materials created by industry experts and senior team members at Ielektron.',
       icon: Award,
       gradient: 'from-primary-400 to-primary-500'
     },
     {
-      title: 'Accessibility',
-      description: 'Learning opportunities should be available to every team member. We ensure our training is accessible and inclusive.',
+      title: 'Flexible Access',
+      description: 'Learn at your own pace with 24/7 access to all training materials, perfect for busy work schedules.',
       icon: Users,
       gradient: 'from-primary-600 to-primary-700'
     },
     {
-      title: 'Results',
-      description: 'We focus on measurable learning outcomes and practical skills that advance careers and drive business success.',
+      title: 'Career Impact',
+      description: 'Your learning achievements directly contribute to performance reviews and promotion opportunities.',
       icon: Target,
       gradient: 'from-primary-300 to-primary-400'
     }
@@ -42,13 +42,13 @@ export default function About() {
         {/* Main About Section */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            About
-            <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">DigiVidya</span>
+            Your Learning Journey at
+            <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent"> Ielektron</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">
-            Ielektron Technologies Learning Management System is our internal platform designed to
-            empower our team with comprehensive training programs and professional development opportunities.
-            Our mission is to foster continuous learning and skill development within our organization.
+            DigiVidya is your personal gateway to professional growth within Ielektron Technologies.
+            Whether you're a new hire or a seasoned professional, our platform provides the tools and resources
+            you need to advance your career and contribute to our company's success.
           </p>
         </div>
 
@@ -72,32 +72,30 @@ export default function About() {
         <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl mb-20">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">Why DigiVidya Exists</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Ielektron Technologies recognized the importance of continuous learning and professional
-                development for our team's success. Our Learning Management System was developed to provide
-                our employees with access to high-quality training programs, skill development courses,
-                and professional growth opportunities.
+                At Ielektron Technologies, we believe that our greatest asset is our people. DigiVidya was created
+                to ensure every team member has access to the learning resources they need to excel in their role
+                and grow their career within our organization.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                As a technology company, we understand that staying current with industry trends and
-                emerging technologies is crucial. Our LMS platform offers comprehensive training programs
-                covering technical skills, soft skills, leadership development, and company-specific
-                knowledge that directly supports our business objectives.
+                Whether you're onboarding as a new employee, looking to develop new technical skills, or preparing
+                for a leadership role, our platform provides personalized learning paths that align with your
+                career goals and our company's strategic objectives.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Today, our LMS continues to evolve with our organization, offering personalized learning
-                paths, interactive content, and real-world projects that enhance our team's capabilities
-                and drive innovation within Ielektron Technologies.
+                The platform is designed to be intuitive and accessible, allowing you to learn at your own pace
+                while tracking your progress and achievements. Your learning journey directly contributes to
+                your performance reviews and career advancement opportunities.
               </p>
             </div>
             <div className="relative">
               <div className="bg-gradient-to-r from-primary-600 to-primary-500 rounded-2xl p-8 text-white">
-                <h4 className="text-2xl font-bold mb-4">Our Mission</h4>
+                <h4 className="text-2xl font-bold mb-4">Your Success is Our Success</h4>
                 <p className="text-primary-100 leading-relaxed">
-                  To empower our team members with comprehensive learning opportunities that enhance
-                  their skills, advance their careers, and contribute to the continued success of
-                  Ielektron Technologies.
+                  We invest in your professional development because when you grow, our company grows.
+                  Every course completed, every skill mastered, and every certification earned contributes
+                  to both your personal advancement and Ielektron's continued innovation.
                 </p>
               </div>
             </div>
@@ -106,9 +104,9 @@ export default function About() {
 
         {/* Values Section */}
         <div className="text-center mb-12">
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Values</h3>
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What You Can Expect</h3>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The principles that guide our learning and development initiatives at Ielektron Technologies
+            The core principles that make DigiVidya an effective tool for your professional development
           </p>
         </div>
 
@@ -131,21 +129,18 @@ export default function About() {
         <div className="text-center mt-20">
           <div className="bg-gradient-to-r from-primary-600 to-primary-500 rounded-2xl p-8 md:p-12 text-white">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">
-              Join Our Learning Community
+              Ready to Advance Your Career?
             </h3>
             <p className="text-xl mb-4 opacity-90 max-w-2xl mx-auto">
-              Become part of our internal learning community where team members grow together,
-              share knowledge, and drive innovation within Ielektron Technologies.
+              Join hundreds of your colleagues who are already using DigiVidya to develop new skills,
+              earn certifications, and advance their careers at Ielektron Technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://www.digividya.ielektron.com/" target="_blank" rel="noopener noreferrer">
                 <button className="bg-white text-primary-600 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                  Start Training Today
+                  Access Your Learning Portal
                 </button>
               </a>
-              {/* <button className="bg-primary-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-800 hover:scale-105 transition-all duration-300 border border-primary-400">
-                Contribute Content
-              </button> */}
             </div>
           </div>
         </div>

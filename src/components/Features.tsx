@@ -15,56 +15,50 @@ export default function Features() {
   const features = [
     {
       icon: Video,
-      title: 'Interactive Video Learning',
-      description: 'Engage with high-quality video content, quizzes, and interactive elements that make learning enjoyable and effective.',
+      title: 'Interactive Training Modules',
+      description: 'Access company-specific training content with interactive videos, quizzes, and hands-on exercises tailored for Ielektron workflows.',
       gradient: 'from-primary-500 to-primary-600'
     },
-    // {
-    //   icon: Users,
-    //   title: 'Collaborative Learning',
-    //   description: 'Connect with peers, join study groups, and participate in discussions to enhance your learning experience.',
-    //   gradient: 'from-primary-400 to-primary-500'
-    // },
+    {
+      icon: Users,
+      title: 'Team Collaboration',
+      description: 'Connect with colleagues, join department-specific study groups, and participate in internal knowledge sharing sessions.',
+      gradient: 'from-primary-400 to-primary-500'
+    },
     {
       icon: BarChart,
-      title: 'Progress Tracking',
-      description: 'Monitor your learning journey with detailed analytics, progress reports, and personalized recommendations.',
+      title: 'Personal Progress Dashboard',
+      description: 'Track your learning milestones, view completion rates, and receive personalized recommendations for career advancement.',
       gradient: 'from-primary-600 to-primary-700'
     },
     {
       icon: Award,
-      title: 'Certifications',
-      description: 'Earn industry-recognized certificates and badges to showcase your skills and advance your career.',
+      title: 'Internal Certifications',
+      description: 'Earn company-recognized certificates and skill badges that contribute to your performance reviews and promotion opportunities.',
       gradient: 'from-primary-300 to-primary-400'
     },
     {
       icon: Clock,
-      title: 'Flexible Schedule',
-      description: 'Learn at your own pace with 24/7 access to course materials.',
+      title: 'Flexible Learning Schedule',
+      description: 'Access training materials anytime, anywhere - perfect for busy work schedules and different time zones.',
       gradient: 'from-primary-500 to-primary-600'
     },
-    // {
-    //   icon: MessageCircle,
-    //   title: 'Expert Support',
-    //   description: 'Get direct access to instructors and mentors for personalized guidance and support.',
-    //   gradient: 'from-primary-400 to-primary-500'
-    // },
-    // {
-    //   icon: Globe,
-    //   title: 'Global Community',
-    //   description: 'Join a worldwide network of learners and professionals from diverse backgrounds and industries.',
-    //   gradient: 'from-primary-600 to-primary-700'
-    // },
+    {
+      icon: MessageCircle,
+      title: 'Mentor Support',
+      description: 'Get guidance from senior team members and department leads through our internal mentoring program.',
+      gradient: 'from-primary-400 to-primary-500'
+    },
     {
       icon: Shield,
-      title: 'Secure Platform',
-      description: 'Your data and progress are protected with enterprise-level security and privacy measures.',
+      title: 'Secure Internal Platform',
+      description: 'Your learning data and progress are protected with enterprise-grade security, ensuring privacy and compliance.',
       gradient: 'from-primary-500 to-primary-600'
     },
     {
       icon: BookOpen,
-      title: 'Rich Content Library',
-      description: 'Tailor your education journey with customized course recommendations and adaptive learning techniques.',
+      title: 'Company-Specific Content',
+      description: 'Learn about Ielektron processes, tools, and methodologies through curated content designed for our organization.',
       gradient: 'from-primary-400 to-primary-500'
     }
   ];
@@ -74,12 +68,12 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why Choose
-            <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent"> DigiVidya</span>
+            Platform Features for
+            <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent"> Ielektron Employees</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover the powerful features that make our learning management system 
-            the perfect choice for students, educators, and organizations worldwide.
+            Explore the comprehensive features designed specifically for our internal team members 
+            to enhance their professional development and career growth.
           </p>
         </div>
 

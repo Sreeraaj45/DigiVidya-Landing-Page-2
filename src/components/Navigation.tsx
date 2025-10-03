@@ -21,7 +21,8 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
   const navigationItems = [
     { name: 'Home', id: 'hero' },
     { name: 'Features', id: 'features' },
-    { name: 'Courses', id: 'courses' },
+    { name: 'How It Works', id: 'how-it-works' },
+    { name: 'Training', id: 'courses' },
     { name: 'About', id: 'about' },
     { name: 'Team', id: 'team' },
     { name: 'Contact', id: 'contact' }
