@@ -65,7 +65,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+          {/* <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="flex justify-center mb-2">
                 <div className="bg-white/10 backdrop-blur-sm p-3 rounded-full border border-white/20">
@@ -93,7 +93,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
               <div className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg">98%</div>
               <div className="text-white/90 text-sm drop-shadow-md">Completion Rate</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
