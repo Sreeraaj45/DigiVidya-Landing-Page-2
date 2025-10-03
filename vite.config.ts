@@ -16,6 +16,9 @@ export default defineConfig({
           if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(ext)) {
             return `assets/images/[name]-[hash][extname]`;
           }
+          if (/mp4|webm|ogg|avi|mov/i.test(ext)) {
+            return `assets/videos/[name]-[hash][extname]`;
+          }
           return `assets/[name]-[hash][extname]`;
         },
       },

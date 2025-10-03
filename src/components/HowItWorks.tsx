@@ -8,8 +8,15 @@ import {
   User,
   Calendar,
   CheckCircle,
-  TrendingUp
+  TrendingUp,
+  Play
 } from 'lucide-react';
+import OptimizedVideo from './OptimizedVideo';
+import SimpleVideo from './SimpleVideo';
+import digividyaDemo from '../assets/digividya_demo.mp4';
+
+// Video sources for different formats and qualities (will be added after optimization)
+const videoSources: any[] = [];
 
 export default function HowItWorks() {
   const steps = [
@@ -104,6 +111,29 @@ export default function HowItWorks() {
               </div>
             );
           })}
+        </div>
+
+        {/* Video Demonstration Section */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              See DigiVidya in Action
+            </h3>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Watch this demonstration to see how easy it is to navigate the platform and access your training materials
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <SimpleVideo />
+            
+            <div className="text-center mt-6">
+              <div className="inline-flex items-center space-x-2 bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium">
+                <Play className="h-4 w-4" />
+                <span>Platform Demo Video</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Benefits Section */}
