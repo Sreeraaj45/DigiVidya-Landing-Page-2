@@ -1,6 +1,9 @@
 import React from 'react';
 import { Star, Clock, Users, ArrowRight, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
 import OptimizedImage from './OptimizedImage';
+import pythonImage from '../assets/python.png';
+import pytestImage from '../assets/pytest.jpg';
+import poshImage from '../assets/posh.jfif';
 
 export default function Courses() {
   const [expandedSkills, setExpandedSkills] = React.useState<{ [key: number]: boolean }>({});
@@ -116,7 +119,7 @@ export default function Courses() {
       duration: '8 weeks',
       price: 0,
       originalPrice: 0,
-      image: '/src/assets/python.png',
+      image: pythonImage,
       category: 'Programming',
       level: 'Beginner',
       description: 'This Python course offers a comprehensive introduction to programming through the lens of Harvard’s CS50 curriculum. Designed for beginners and those looking to strengthen their coding foundations, the course covers essential Python concepts such as data types, control structures, functions, and object-oriented programming. Through clear explanations and practical examples, learners will develop the skills needed to write efficient and effective Python code applicable in a variety of real-world scenarios.',
@@ -131,7 +134,7 @@ export default function Courses() {
       duration: '6 weeks',
       price: 0,
       originalPrice: 0,
-      image: '/src/assets/pytest.jpg',
+      image: pytestImage,
       category: 'Testing',
       level: 'Intermediate',
       description: 'Learn how to use Pytest, a powerful testing framework for Python. Throughout this course, you’ll gain a solid understanding of Pytest’s features, best practices, and the nuances of writing effective tests. By the end, you’ll also discover how to leverage ChatGPT to write tests faster and more efficiently.',
@@ -146,7 +149,7 @@ export default function Courses() {
       duration: '4 weeks',
       price: 0,
       originalPrice: 0,
-      image: '/src/assets/posh.jfif',
+      image: poshImage,
       category: 'Workplace Safety',
       level: 'All Levels',
       description: 'This comprehensive course on the Prevention of Sexual Harassment (POSH) aims to educate learners about their rights, responsibilities, and the legal frameworks that protect dignity in the workplace. Drawing from constitutional provisions, global practices, and real-world scenarios, the course fosters awareness, sensitivity, and accountability around gender equality and respectful conduct at work.',
