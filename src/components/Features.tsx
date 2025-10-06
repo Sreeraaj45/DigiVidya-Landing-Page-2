@@ -16,15 +16,15 @@ export default function Features() {
     {
       icon: Video,
       title: 'Interactive Training Modules',
-      description: 'Access company-specific training content with interactive videos, quizzes, and hands-on exercises tailored for Ielektron workflows.',
+      description: 'Access training content with interactive videos, quizzes, and hands-on exercises tailored for Ielektron workflows.',
       gradient: 'from-primary-500 to-primary-600'
     },
-    {
-      icon: Users,
-      title: 'Team Collaboration',
-      description: 'Connect with colleagues, join department-specific study groups, and participate in internal knowledge sharing sessions.',
-      gradient: 'from-primary-400 to-primary-500'
-    },
+    // {
+    //   icon: Users,
+    //   title: 'Team Collaboration',
+    //   description: 'Connect with colleagues, join department-specific study groups, and participate in internal knowledge sharing sessions.',
+    //   gradient: 'from-primary-400 to-primary-500'
+    // },
     {
       icon: BarChart,
       title: 'Personal Progress Dashboard',
@@ -34,33 +34,33 @@ export default function Features() {
     {
       icon: Award,
       title: 'Internal Certifications',
-      description: 'Earn company-recognized certificates and skill badges that contribute to your performance reviews and promotion opportunities.',
+      description: 'Showcase your achievements with company-recognized certificates that celebrate your learning milestones and professional growth.',
       gradient: 'from-primary-300 to-primary-400'
     },
     {
       icon: Clock,
       title: 'Flexible Learning Schedule',
-      description: 'Access training materials anytime, anywhere - perfect for busy work schedules and different time zones.',
+      description: 'Access training materials anytime, anywhere - perfect for busy work schedules.',
       gradient: 'from-primary-500 to-primary-600'
     },
-    {
-      icon: MessageCircle,
-      title: 'Mentor Support',
-      description: 'Get guidance from senior team members and department leads through our internal mentoring program.',
-      gradient: 'from-primary-400 to-primary-500'
-    },
+    // {
+    //   icon: MessageCircle,
+    //   title: 'Mentor Support',
+    //   description: 'Get guidance from senior team members and department leads through our internal mentoring program.',
+    //   gradient: 'from-primary-400 to-primary-500'
+    // },
     {
       icon: Shield,
       title: 'Secure Internal Platform',
       description: 'Your learning data and progress are protected with enterprise-grade security, ensuring privacy and compliance.',
       gradient: 'from-primary-500 to-primary-600'
     },
-    {
-      icon: BookOpen,
-      title: 'Company-Specific Content',
-      description: 'Learn about Ielektron processes, tools, and methodologies through curated content designed for our organization.',
-      gradient: 'from-primary-400 to-primary-500'
-    }
+    // {
+    //   icon: BookOpen,
+    //   title: 'Company-Specific Content',
+    //   description: 'Learn about Ielektron processes, tools, and methodologies through curated content designed for our organization.',
+    //   gradient: 'from-primary-400 to-primary-500'
+    // }
   ];
 
   return (
